@@ -1,0 +1,25 @@
+<launch>
+    <node pkg="md" type="md_node" name="md_node" output="screen">
+        <param name = "diameter"         value = "190"/>
+        <param name = "wheelLength"      value = "430"/>
+        <param name = "reduction"        value = "20"/>
+        <param name = "baudrate"         value = "57600"/>
+        <param name = "direction"        value = "1"/>
+        <param name = "PC"               value = "172"/>
+        <param name = "MDUI"             value = "184"/>
+        <param name = "MDT"              value = "183"/>
+        <param name = "RMID"             value = "184"/>
+        <param name = "halltype"         value = "8"/>
+        <param name = "maxrpm"           value = "3000"/>
+        <param name = "angleresolution"  value = "1"/>
+        <param name = "slowstart"        value = "300"/>
+        <param name = "slowdown"         value = "300"/>
+    </node>
+
+    <node pkg="md" type="vel_cmd_node" name="vel_cmd_node" output="screen">
+        <param name = "reset_odometry"  value = "0"/>
+        <param name = "reset_angle"     value = "0"/>
+        <param name = "reset_alarm"     value = "0"/>
+    </node>
+
+</launch>

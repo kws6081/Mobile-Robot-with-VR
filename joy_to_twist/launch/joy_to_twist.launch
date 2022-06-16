@@ -1,0 +1,19 @@
+<launch>
+  <arg name="mode" default="usb"/>
+  <arg name="dev" default="/dev/input/js1"/>
+
+  <!-- roomba control -->
+  <include file="$(find ca_driver)/launch/create_2.launch"/>
+
+  <!-- joy stick driver -->
+  <node pkg="joy" name="joy_node" type="joy_node">
+    <param name="dev" value="$(arg dev)"/>
+  </node>
+
+  <!-- joy to twist converter -->
+  <node pkg="joy_to_twist" name="joy_to_twist" type="joy_to_twist">
+    <param name="mode" value="$(arg mode)"/>
+  </node>
+
+
+</launch>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="joy_to_twist" name="joy_to_twist" type="joy_to_twist"/>
+  <node pkg="joy_to_twist" name="twist_selector" type="twist_selector" output="screen"/>
+</launch>
