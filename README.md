@@ -4,6 +4,7 @@
 
 ## Equipments
 - Oculus Quest 2
+
 ![oculus](https://user-images.githubusercontent.com/68265609/174251242-36cc5d86-006e-43ec-a0e5-6c46ebeed3bd.jpeg)
 - C920 Camera
 - VLP-16 or YD-LiDAR ... any 3D or 2D LiDAR is ok...
@@ -15,21 +16,21 @@
 1. Navigation Package is based on ROS move_base.
 ![rviz](https://user-images.githubusercontent.com/68265609/174252925-63ff38bb-e165-4600-9b73-bbc00d4dcddf.gif)
 <p align='center'>
-    <img src="/gif/nav.gif" width="800"/>
+    <img src="/gif/nav.gif" width="500"/>
 </p>
 2. This repo supports teleoperation with Oculus Quest 2 (VR).
 <p align='center'>
-    <img src="/gif/ocu.gif" width="800"/>
+    <img src="/gif/ocu.gif" width="500"/>
 </p>
 3. 2 camera scenes are connected to Oculus Quest 2.
 <p align='center'>
-    <img src="/gif/cam.gif" width="800"/>
+    <img src="/gif/cam.gif" width="500"/>
 </p>
 
 ### VR Environments
 - If you want to make an application of Oculus Quest 2 or any other VR devices. You have to develop it yourself by UNITY.
-- We also make a [manual](a) how to make an VR application. It supports ROS communication with VR devices.
-- There is a additional [manul](b) how to use 360 degree camera in UNITY, such as RICOH Theta V.
+- We also make a [manual](https://github.com/kws6081/Mobile-Robot-with-VR/blob/main/vr_unity.md) how to make an VR application. It supports ROS communication with VR devices.
+- There is a additional [manul](https://github.com/kws6081/Mobile-Robot-with-VR/blob/main/360.md) how to use 360 degree camera in UNITY, such as RICOH Theta V.
 ![1655452078848](https://user-images.githubusercontent.com/68265609/174252208-a428a4f7-ea34-4154-8f5d-e6786b6166d2.gif)
 
 
