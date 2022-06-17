@@ -13,15 +13,18 @@
 - ~Ricoh Theta V~
 
 ## Description
+
 1. Navigation Package is based on ROS move_base.
 ![rviz](https://user-images.githubusercontent.com/68265609/174252925-63ff38bb-e165-4600-9b73-bbc00d4dcddf.gif)
 <p align='left'>
     <img src="/gif/nav.gif" width="500"/>
 </p>
+
 2. This repo supports teleoperation with Oculus Quest 2 (VR).
 <p align='left'>
     <img src="/gif/ocu.gif" width="500"/>
 </p>
+
 3. 2 camera scenes are connected to Oculus Quest 2.
 <p align='left'>
     <img src="/gif/cam.gif" width="500"/>
