@@ -20,12 +20,12 @@
     <img src="/gif/nav.gif" width="400"/>
 </p>
 
-2. This repo supports teleoperation with Oculus Quest 2 (VR).
+2. This repo supports teleoperation with Oculus Quest 2 (Manual Control Driving + VR).
 <p align='left'>
     <img src="/gif/ocu.gif" width="500"/>
 </p>
 
-3. 2 camera scenes are connected to Oculus Quest 2.
+3. Combined two camera scenes are connected to Oculus Quest 2.
 <p align='left'>
     <img src="/gif/cam.gif" width="500"/>
 </p>
@@ -34,6 +34,8 @@
 - If you want to make an application of Oculus Quest 2 or any other VR devices. You have to develop it yourself by UNITY.
 - We also make a [manual](https://github.com/kws6081/Mobile-Robot-with-VR/blob/main/vr_unity.md) how to make an VR application. It supports ROS communication with VR devices.
 - There is a additional [manul](https://github.com/kws6081/Mobile-Robot-with-VR/blob/main/360.md) how to use 360 degree camera in UNITY, such as RICOH Theta V.
+
+
 ![1655452078848](https://user-images.githubusercontent.com/68265609/174252208-a428a4f7-ea34-4154-8f5d-e6786b6166d2.gif)
 
 
