@@ -1,4 +1,4 @@
-# Mobile Robot with VR : MetaMobility
+# Mobile Robot with VR : Meta Mobility
 
 <br/>
 
@@ -9,7 +9,7 @@
 - C920 Camera
 - VLP-16 or YD-LiDAR ... any 3D or 2D LiDAR is ok...
 - WIFI router
-- any Mobile Robot
+- Any Mobile Robot
 - ~Ricoh Theta V~
 
 ## Description
